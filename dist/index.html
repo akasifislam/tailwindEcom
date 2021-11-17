@@ -11,14 +11,22 @@
 <body>
     <!-- header section start  -->
        <header class="py-4 shadow-sm bg-white">
-           <div class="container flex items-center justify-between">
-               <!-- logo  -->
+        <div class="container flex items-center justify-between">
+            <!-- logo  -->
             <img src="images/icons/220px-Interactive_icon.svg.png" alt="Logo" class="w-20 h-10">
 
-               <!-- search  -->
+            
+            <!-- search  -->
+            <div class="w-full max-w-xl relative">
+                <span class="absolute left-4 top-3 text-lg text-gray-400">
+                    <i class="fas fa-search"></i>
+                </span>
+                <input type="text" class="w-full border border-primary  pl-12 py-3 pr-3 rounded-lg focus:outline-none" placeholder="Search" />
+                <button class="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition">search</button>
 
+            </div>
 
-               <!-- icons  -->
+        <!-- icons  -->
            </div>
        </header> 
     <!-- header section end  -->
