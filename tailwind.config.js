@@ -12,10 +12,16 @@ module.exports = {
         center: true,
         padding: '1rem'
       },
-    extend: {},
+    extend: {
+      colors:{
+        'primary' : '#FD3D57',
+        'purple' :  '#6D28D9'
+      }
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
 }
+  
