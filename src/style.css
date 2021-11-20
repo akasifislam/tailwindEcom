@@ -6,8 +6,8 @@
 @tailwind utilities;
 
 
-@layer base {
+/* @layer base {
     body{
         @apply font-poppins 
     }
-}
+} */
