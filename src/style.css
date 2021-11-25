@@ -11,3 +11,10 @@
         @apply font-poppins 
     }
 } */
+
+
+@layer components {
+    .size-selector input:checked + label {
+        @apply bg-purple text-green-900;
+    }
+}
