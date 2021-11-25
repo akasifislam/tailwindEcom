@@ -4,9 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icons/shortcut.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>E-commarce</title>
 </head>
 <body>
+    <!-- header section start  -->
+       <header class="py-4 shadow-sm bg-white">
+        <div class="container flex items-center justify-between">
+            <!-- logo  -->
+            <img href="#" src="images/icons/logopur.png" alt="Logo" class="w-32 cursor-pointer">
+
+            
+            <!-- search  -->
+            <div class="w-full max-w-xl relative flex">
+                <span class="absolute left-4 top-3 text-lg text-gray-400">
+                    <i class="fas fa-search"></i>
+                </span>
+                <input type="text" class="w-full border border-primary border-r-0  pl-12 py-3 pr-3 rounded-l-lg focus:outline-none" placeholder="Search" />
+                <button class="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition">search</button>
+
+            </div>
+
+        <!-- icons  -->
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                    <div class="text-2xl">
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="text-xs leading-3">wishlist</div>
+                    <span class="absolute right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">9  </span>
+                </a>
+                <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                    <div class="text-2xl">
+                        <i class="fas fa-shopping-bag text-purple"></i>
+                    </div>
+                    <div class="text-xs leading-3">cart</div>
+                    <span class="absolute right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">9  </span>
+                </a>
+                <a href="#" class="text-center text-gray-700 hover:text-primary transition relative">
+                    <div class="text-2xl">
+                        <i class="far fa-user"></i>
+                    </div>
+                    <div class="text-xs leading-3">account</div>
+                </a>
+            </div>
+           </div>
+       </header> 
+    <!-- header section end  -->
+
+
+
+    <!-- navbar section start  -->
+    <nav class="bg-gray-800 flex">
+        <div class="container flex">
+            <!-- all categories start  -->
+            <div class="px-4 py-4 text-white bg-primary flex items-center cursor-pointer relative group">
+                <span class="fas fa-bars"></span>
+                <span class="capitalize ml-2 text-white">ALL Categories</span>
+                <div class="absolute w-full left-0 top-full bg-white shadow-md py-3 divide-y divide-gray-300 divide-dashed opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible">
+                    <a href="" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <img src="/dist/images/icons/sofa.png" alt="" class="w-5 h-5 object-contain">
+                        <span class="ml-6 text-gray-600 text-sm">Sofa</span>
+                    </a>
+                    <a href="" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <img src="/dist/images/icons/sofa.png" alt="" class="w-5 h-5 object-contain">
+                        <span class="ml-6 text-gray-600 text-sm">Sofa</span>
+                    </a>
+                    <a href="" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <img src="/dist/images/icons/sofa.png" alt="" class="w-5 h-5 object-contain">
+                        <span class="ml-6 text-gray-600 text-sm">Sofa</span>
+                    </a>
+                    <a href="" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <img src="/dist/images/icons/sofa.png" alt="" class="w-5 h-5 object-contain">
+                        <span class="ml-6 text-gray-600 text-sm">Sofa</span>
+                    </a>
+                    <a href="" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <img src="/dist/images/icons/sofa.png" alt="" class="w-5 h-5 object-contain">
+                        <span class="ml-6 text-gray-600 text-sm">Sofa</span>
+                    </a>
+                    <a href="" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+                        <img src="/dist/images/icons/sofa.png" alt="" class="w-5 h-5 object-contain">
+                        <span class="ml-6 text-gray-600 text-sm">Sofa</span>
+                    </a>
+                </div>
+            </div>
+            <!-- all categories end -->
+            <!-- navbar links start -->
+            <div class="flex items-center justify-between flex-grow pl-12">
+                <div class="flex items-center space-x-6 capitalize">
+                    <a href="#" class="text-gray-400 cursor-pointer hover:text-white transition">Home</a>
+                    <a href="#" class="text-gray-400 cursor-pointer hover:text-white transition">Shop</a>
+                    <a href="#" class="text-gray-400 cursor-pointer hover:text-white transition">Blog</a>
+                    <a href="#" class="text-gray-400 cursor-pointer hover:text-white transition">About</a>
+                    <a href="#" class="text-gray-400 cursor-pointer hover:text-white transition">Contact</a>
+                </div>
+                <div class="">
+                    <a href="#" class="text-gray-400 cursor-pointer hover:text-white transition">Login</a>
+                    <span class="text-white">/</span>
+                    <a href="#" class="text-gray-400 cursor-pointer hover:text-white transition">Register</a>
+                </div>
+            </div>
+            <!-- navbar links end -->
+        </div>
+    </nav>
+    <!-- navbar section end  -->
     
 </body>
 </html>
